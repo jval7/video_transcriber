@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "env": {
+                "OPENAI_API_KEY": "sk-proj-7LkOrX2KqHDuOJxMZcgB29C21wOQ5aSCj7Jq3ChD_sm_38w8xk7XfgsDWtpALutFgBl9nQKh1AN9A4C96gT3BlbkFJrOP8_mK-RWpSY2Nu2Oj-0wl-G8DCTL1dfCrYY7e090_NVf15IQ0FjJ7k7k7LhTfcj9W1Mx498nqJU"
+            }
+        },
+        
+    ]
+}

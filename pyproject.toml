@@ -1,0 +1,17 @@
+[project]
+name = "video-transcriber"
+version = "0.1.0"
+description = "Video transcription service using OpenAI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "openai>=1.3.0",
+    "python-multipart>=0.0.6",
+    "pydantic>=2.5.0",
+    "python-dotenv>=1.0.0",
+    "ffmpeg-python>=0.2.0",
+    "structlog>=23.2.0",
+    "pre-commit>=4.3.0",
+]
